@@ -1,6 +1,6 @@
 Executable File  20 lines (18 sloc)  247 Bytes
 
-#include "holberton.h"
+#include "_putchar"
 
 /**
 
