@@ -1,36 +1,17 @@
-_putchar
-#include "holberton.h"
-
+#include "main.h"
 /**
-
- * main - Entry block
-
- * Description: prints holberton on new line
-
- * Return: 0
-
- */
-
+ *  * main - Entry point
+ *   *
+ *    * Return: always 0(Success)
+ *     */
 int main(void)
-
 {
+char str[] = "_putchar";
+  int ch;
 
-	char c[10] = "Holberton";
+  for (ch = 0; ch < 8; ++ch)
+ _putchar(str[ch]);
+ _putchar('\n');
 
-	int i = 0;
-
-	while (i < 9)
-
-	{
-
-		_putchar(c[i]);
-
-		i++;
-
-	}
-
-	_putchar('\n');
-
-	return (0);
-
-}
+ return (0);
+}  
