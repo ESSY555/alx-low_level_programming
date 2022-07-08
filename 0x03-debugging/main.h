@@ -1,5 +1,5 @@
-#ifndef main.h
-#define main.h
+#ifndef main.h-H
+#define main.h-H
 
 #include <stdio.h>
 
