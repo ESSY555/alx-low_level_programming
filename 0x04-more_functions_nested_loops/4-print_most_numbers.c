@@ -2,7 +2,7 @@
 
 /**
 
- * print_most_numbers - prints numbers
+* print_most_numbers - prints numbers
 
  * Return:0
 
