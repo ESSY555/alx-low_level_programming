@@ -6,7 +6,7 @@
  * Return Pointer to the byte in  that matches one of the bytes in 
  * or NULL if no such byte is found.
  */
-char *_strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept);
 {
 int i, j;
 char *p;
