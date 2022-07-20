@@ -3,7 +3,7 @@
  * _pow_recursion - Search a string for any of a set of bytes.
  * @x: base
  * @y: exposant
- * Return: Pointer to the byte in  that matches one of the bytes in 
+ * Return: Pointer to the byte in that matches one of the bytes in 
  * or NULL if no such byte is found.
  */
 int _pow_recursion(int x, int y)
