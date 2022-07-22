@@ -22,3 +22,6 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 #endif /*"main_H*/
+#!/bin/bash
+gcc -c *.c
+ar rc liball.a *.o
