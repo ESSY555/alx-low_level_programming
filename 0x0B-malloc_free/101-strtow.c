@@ -37,7 +37,7 @@ return (NULL);
 n = wrdcnt(str);
 if (n == 1)
 return (NULL);
-w = (char **)malloc(n * sizeof(char *));
+w = (char**)malloc(n * sizeof(char*));
 if (w == NULL)
 return (NULL);
 w[n - 1] = NULL;
