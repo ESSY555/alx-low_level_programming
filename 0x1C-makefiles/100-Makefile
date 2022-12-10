@@ -1,0 +1,19 @@
+CC = gcc
+SRC = main.c school.c
+OBJ = 
+NAME = school
+CFLAGS = -Wall -Werror -Wextra -pedantic
+.PHONY : all clean oclean fclean re
+
+all : m.h 
+  -o 
+
+clean :
+ *~ 
+
+oclean :
+ 
+
+fclean : clean oclean
+
+re : oclean all
